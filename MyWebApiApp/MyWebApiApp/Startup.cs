@@ -38,6 +38,7 @@ namespace MyWebApiApp
 
             services.AddScoped<ILoaiRepository, LoaiRepository>();
             //services.AddScoped<ILoaiRepository, LoaiRepositoryMemory>();
+            services.AddScoped<IHangHoaRepository, HangHoaRepository>();
                
             services.AddSwaggerGen(c =>
             {
